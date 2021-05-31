@@ -1,1 +1,1 @@
-A dice game using vanillaJS
+# A dice game using vanillaJS

@@ -1,6 +1,9 @@
 let globalRandom1 = 0,
     globalRandom2 = 0;
 
+    const date= new Date();
+    const year=date.getFullYear();
+
 document.getElementsByClassName("img1")[0].addEventListener("click", roll1);
 document.querySelector(".img2").addEventListener("click", roll2);
 
@@ -35,6 +38,9 @@ function result() {
         }
     }
 }
+
+
+
 
 
 
